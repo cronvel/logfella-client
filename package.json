@@ -9,6 +9,9 @@
   "directories": {
     "test": "test"
   },
+  "bin": {
+    "logfella-client": "./bin/logfella-client"
+  },
   "dependencies": {
     "minimist": "^1.2.0",
     "terminal-kit": "^0.15.10"
