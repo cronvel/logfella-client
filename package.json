@@ -1,0 +1,37 @@
+{
+  "name": "logfella-client",
+  "version": "0.3.0",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "description": "A client for Logfella",
+  "main": "lib/Client.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "terminal-kit": "^0.15.10"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "jshint": "^2.5.6",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/logfella-client.git"
+  },
+  "keywords": [
+    "logger",
+    "client"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/logfella-client/issues"
+  }
+}

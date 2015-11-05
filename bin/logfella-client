@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var Client = require( '../lib/Client.js' ) ;
+Client.cli() ;
