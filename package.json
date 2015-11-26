@@ -1,6 +1,6 @@
 {
   "name": "logfella-client",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "engines": {
     "node": ">=4.0.0"
   },
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "minimist": "^1.2.0",
-    "terminal-kit": "^0.15.10"
+    "terminal-kit": "^0.16.4"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
@@ -22,7 +22,7 @@
     "mocha": "^1.21.4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -R dot"
   },
   "repository": {
     "type": "git",
