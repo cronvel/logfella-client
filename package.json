@@ -1,6 +1,6 @@
 {
   "name": "logfella-client",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "engines": {
     "node": ">=4.0.0"
   },
@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "minimist": "^1.2.0",
-    "string-kit": "^0.3.6",
-    "terminal-kit": "^0.16.4"
+    "string-kit": "^0.3.11",
+    "terminal-kit": "^0.22.7"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
