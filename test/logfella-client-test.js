@@ -24,11 +24,7 @@
 	SOFTWARE.
 */
 
-/* jshint unused:false */
-/* global describe, it, before, after */
-
-
-var expect = require( 'expect.js' ) ;
+/* global describe, it */
 
 
 
