@@ -24,7 +24,9 @@
 	SOFTWARE.
 */
 
-/* global describe, it, before, after */
+"use strict" ;
+
+/* global describe, it */
 
 
 
@@ -40,8 +42,4 @@ describe( "..." , function() {
 	} ) ;
 	
 } ) ;
-
-
-
-
 
