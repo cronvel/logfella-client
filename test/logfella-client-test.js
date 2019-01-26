@@ -1,8 +1,8 @@
 /*
-	The Cedric's Swiss Knife (CSK) - CSK logger client test suite
+	Logfella Client
 
-	Copyright (c) 2015 Cédric Ronvel 
-	
+	Copyright (c) 2015 - 2019 Cédric Ronvel
+
 	The MIT License (MIT)
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,11 +24,7 @@
 	SOFTWARE.
 */
 
-/* jshint unused:false */
 /* global describe, it, before, after */
-
-
-var expect = require( 'expect.js' ) ;
 
 
 

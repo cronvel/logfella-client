@@ -31,6 +31,7 @@ pids
 logs
 results
 build
+package-lock.json
 .grunt
 
 node_modules

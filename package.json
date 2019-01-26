@@ -1,10 +1,10 @@
 {
   "name": "logfella-client",
-  "version": "0.3.10",
+  "version": "0.4.0",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
-  "description": "A client for Logfella",
+  "description": "A client for Logfella Mon",
   "main": "lib/Client.js",
   "directories": {
     "test": "test"
@@ -13,17 +13,13 @@
     "logfella-client": "./bin/logfella-client"
   },
   "dependencies": {
-    "minimist": "^1.2.0",
-    "string-kit": "^0.6.1",
-    "terminal-kit": "^1.13.3"
+    "string-kit": "^0.9.0",
+    "terminal-kit": "^1.26.10",
+    "utterminal": "^0.5.27"
   },
-  "devDependencies": {
-    "expect.js": "^0.3.1",
-    "jshint": "^2.9.1",
-    "mocha": "^2.4.5"
-  },
+  "devDependencies": {},
   "scripts": {
-    "test": "mocha -R dot"
+    "test": "tea-time -R dot"
   },
   "repository": {
     "type": "git",
@@ -37,5 +33,13 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cronvel/logfella-client/issues"
+  },
+  "copyright": {
+    "title": "Logfella Client",
+    "years": [
+      2015,
+      2019
+    ],
+    "owner": "Cédric Ronvel"
   }
 }
